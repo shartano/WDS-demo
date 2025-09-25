@@ -1,7 +1,7 @@
 import Button from './Button'
 
 function ButtonGrid({ onButtonClick }) {
-  const buttons = ["7","8","9","4","5","6","x","1","2","3","-","0","=","+"];
+  const buttons = ["7","8","9", "+","4","5","6","x","1","2","3","-","0","="];
 
   return (
     <div className="grid">

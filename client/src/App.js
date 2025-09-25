@@ -4,7 +4,7 @@ import Calculator from "./components/Calc";
 function App() {
   return (
     <div>
-      <h1>Calculator</h1>
+     <div className="calculator-title" >Simple Calc with react Postgres</div>
       <Calculator />
     </div>
   );
