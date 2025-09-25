@@ -4,7 +4,7 @@ A simple calculator built with React on the frontend, Express.js as the backend,
 Numbers are fetched from the database, while operations and calculations are handled in the frontend. 
 
 
-**Set up the database**
+#Set up the database
 
 Create a PostgreSQL database and table:
 
@@ -14,18 +14,18 @@ CREATE TABLE Numbs (
 );
 
 
-**Insert some digits:**
+#Insert some digits:
 
 INSERT INTO Numbs (key, value) VALUES
 ('0', 0), ('1', 1), ('2', 2), ('3', 3), ('4', 4),
 ('5', 5), ('6', 6), ('7', 7), ('8', 8), ('9', 9);
 
-**Run the servers**
-# Start backend
+#Run the servers
+Start backend
 cd server
 npm start
 
-# Start frontend
+Start frontend
 cd ../client
 npm start
 
